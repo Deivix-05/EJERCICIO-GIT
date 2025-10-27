@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Mi primera página web</title>
 </head>
+
 <body>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      padding: 0;
+    }
+
+    .indice-simple {
+      width: 300px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 30px;
+    }
+
+    .indice-simple ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .indice-simple a {
+      text-decoration: none;
+      color: #333;
+      display: block;
+      padding: 8px 10px;
+      margin: 2px 0;
+      border-radius: 4px;
+      transition: background-color 0.2s, color 0.2s;
+    }
+
+    .indice-simple a:hover {
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
   <h1>¡Hola, mundo!</h1>
   <p>Hola, soy David Benítez Marín</p>
   <p>Soy de Chiclana de la frontera</p>
+  <nav class="indice-simple">
+    <ul>
+      <li><a>1. Futbol</a></li>
+      <li><a>2. Padel</a></li>
+      <li><a>3. Voleyball</a></li>
+      <li><a>4. Tenis</a></li>
+    </ul>
+  </nav>
 </body>
+
 </html>
